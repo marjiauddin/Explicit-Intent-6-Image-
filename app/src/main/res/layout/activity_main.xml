@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/kuakataTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Kuakata"
+                android:textSize="14sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/satlabilTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Satla Bil"
+                android:textSize="14sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:onClick="picShow"
+                    android:id="@+id/kuakataBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/kuakata">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:onClick="picShow"
+                    android:id="@+id/satlabilBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/satlabil">
+
+                </ImageButton>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/horinghataTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Horinghata"
+                android:textSize="14sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/durgasagorTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Durga Sagor"
+                android:textSize="14sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:onClick="picShow"
+                    android:id="@+id/horinghataBtn"
+                    android:layout_width="80dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/horinghata">
+
+                </ImageButton>
+
+                <ImageButton
+                    android:onClick="picShow"
+                    android:id="@+id/durgasagorBtn"
+                    android:layout_width="80dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/durgasagar">
+
+                </ImageButton>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gutiamosqueTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Gutia Mosque"
+                android:textSize="14sp"
+
+
+                />
+            <TextView
+                android:id="@+id/guavamarketTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:text="Guava Market"
+                android:textSize="14sp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:onClick="picShow"
+                    android:id="@+id/gutiamosqueBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="180dp"
+                    android:layout_weight=".5"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/gutiamosque">
+
+                </ImageButton>
+                <ImageButton
+                    android:onClick="picShow"
+                    android:id="@+id/guavamarketBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="180dp"
+                    android:layout_weight=".5"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/guavamarket">
+
+                </ImageButton>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
